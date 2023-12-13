@@ -415,6 +415,8 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluasi"><strong>Evaluasi</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-klasifikasi">Text klasifikasi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modif-dengan-topik">Modif dengan Topik</a></li>
 </ul>
             </nav>
         </div>
@@ -433,7 +435,7 @@ document.write(`
 <p>Perayapan data, atau data crawling adalah sebuah proses yang menggali jauh ke dalam world wide web atau target tertentu untuk mengambil data. Perayapan data juga didefinisikan sebagai proses otomatis untuk mengumpulkan dan mengindeks data dari berbagai sumber.</p>
 <p>Crawling dilakukan pada website <a class="reference external" href="http://kompas.com">kompas.com</a>. dengan mengambil data berita dengan 3 kategori sesuai keinginan user</p>
 <p>Link website yang telah dibuat :
-<a class="reference external" href="https://appuasppw-vt01.streamlit.app/">https://appuasppw-vt01.streamlit.app/</a></p>
+<a class="reference external" href="https://apk-uas-ppw-v1.streamlit.app/">https://apk-uas-ppw-v1.streamlit.app/</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import Library</span>
@@ -469,9 +471,11 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data] Downloading package stopwords to /root/nltk_data...
-[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data]   Unzipping corpora/stopwords.zip.
 [nltk_data] Downloading package punkt to /root/nltk_data...
-[nltk_data]   Package punkt is already up-to-date!
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[nltk_data]   Unzipping tokenizers/punkt.zip.
 </pre></div>
 </div>
 </div>
@@ -529,169 +533,55 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[1] &gt; Dari Prawi
-data berhasil diambil[2] &gt; &quot;Format Ho
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[1] &gt; Mills Kena
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[3] &gt; IBL 2024: 
-data berhasil diambil[4] &gt; IBL 2024 P
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[2] &gt; Hasil BWF 
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[5] &gt; Berkenalan
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[3] &gt; Kata Ketua
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[6] &gt; BWF World 
-data berhasil diambil[7] &gt; Man United
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[4] &gt; Newcastle 
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[8] &gt; Wasit Dipu
-data berhasil diambil[9] &gt; Nusantara 
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[5] &gt; BWF World 
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[10] &gt; Man United
-data berhasil diambil[11] &gt; Ibrahimovi
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[6] &gt; Kata Ten H
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[12] &gt; Demi Lihat
-data berhasil diambil[13] &gt; Klasemen L
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[7] &gt; Manchester
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[14] &gt; Hasil Al S
-data berhasil diambil[15] &gt; Newcastle 
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[8] &gt; Jadwal BWF
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[16] &gt; Saran untu
-data berhasil diambil[17] &gt; Selama Mas
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[9] &gt; Daftar Tim
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[18] &gt; Skenario M
-data berhasil diambil[19] &gt; Roma Vs Fi
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[10] &gt; Hasil Man 
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[20] &gt; Dampak Bes
-data berhasil diambil[21] &gt; Ze Valente
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[11] &gt; Dari Prawi
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[22] &gt; Manchester
-data berhasil diambil[23] &gt; SAC Indone
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[12] &gt; &quot;Format Ho
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[24] &gt; BIN Pasund
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[13] &gt; IBL 2024: 
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[25] &gt; Daftar Pen
-data berhasil diambil[26] &gt; Runner-up 
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[14] &gt; IBL 2024 P
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[27] &gt; Hasil Fina
-data berhasil diambil[28] &gt; Lakers Uki
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[15] &gt; Berkenalan
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[29] &gt; Head to he
-data berhasil diambil[30] &gt; PLN Electr
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[16] &gt; BWF World 
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[31] &gt; Tim Putri 
-data berhasil diambil[32] &gt; PLN Electr
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[33] &gt; PLN Electr
-data berhasil diambil[34] &gt; Eks Pelati
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[35] &gt; PLN Electr
-data berhasil diambil[36] &gt; PLN Electr
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[37] &gt; Ronaldo-Me
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[38] &gt; Rekap Puta
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[39] &gt; Jadwal Pia
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[40] &gt; Persebaya 
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[41] &gt; Livoli Div
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[42] &gt; Bela Timna
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[43] &gt; Pengalaman
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[44] &gt; Kisah Man 
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[45] &gt; McTominay:
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[46] &gt; Livoli Div
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[47] &gt; Link Live 
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[48] &gt; Usai Sampa
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[49] &gt; Ketika Gua
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[50] &gt; Jersey Edi
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[51] &gt; Profil Mat
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[52] &gt; Man United
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[53] &gt; Lionel Mes
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[54] &gt; Kronologi 
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[55] &gt; Atlet Perb
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[56] &gt; Jadwal Liv
-data berhasil diambil[57] &gt; Pajajaran 
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[58] &gt; Striker Ba
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[59] &gt; Klasemen L
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[60] &gt; Hasil Pers
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[61] &gt; Babak I Pe
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[62] &gt; Bersinar d
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[63] &gt; Duo Eropa,
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[64] &gt; Megawati H
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[65] &gt; Hasil Bali
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[66] &gt; Manchester
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[67] &gt; Hasil Chel
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>data berhasil diambil[17] &gt; Man United
 </pre></div>
 </div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
@@ -702,88 +592,60 @@ data berhasil diambil[57] &gt; Pajajaran
 <span class="ne">---&gt; </span><span class="mi">47</span> <span class="n">scraping_berita</span><span class="p">(</span><span class="mi">23</span><span class="p">)</span>
 
 <span class="nn">&lt;ipython-input-2-0215cc112015&gt;</span> in <span class="ni">scraping_berita</span><span class="nt">(halaman)</span>
-<span class="g g-Whitespace">     </span><span class="mi">33</span>                       <span class="n">category</span> <span class="o">=</span> <span class="s1">&#39;Otomotif&#39;</span>
 <span class="g g-Whitespace">     </span><span class="mi">34</span> 
-<span class="ne">---&gt; </span><span class="mi">35</span>                     <span class="n">ge_berita</span> <span class="o">=</span> <span class="n">req</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">link</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span>                     <span class="n">sop_berita</span> <span class="o">=</span> <span class="n">bs</span><span class="p">(</span><span class="n">ge_berita</span><span class="p">,</span> <span class="s1">&#39;lxml&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">35</span>                     <span class="n">ge_berita</span> <span class="o">=</span> <span class="n">req</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">link</span><span class="p">)</span><span class="o">.</span><span class="n">text</span>
+<span class="ne">---&gt; </span><span class="mi">36</span>                     <span class="n">sop_berita</span> <span class="o">=</span> <span class="n">bs</span><span class="p">(</span><span class="n">ge_berita</span><span class="p">,</span> <span class="s1">&#39;lxml&#39;</span><span class="p">)</span>
 <span class="g g-Whitespace">     </span><span class="mi">37</span>                     <span class="n">content_elem</span> <span class="o">=</span> <span class="n">sop_berita</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,</span> <span class="n">class_</span><span class="o">=</span><span class="s1">&#39;read__content&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">38</span>                     <span class="n">content_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">p</span><span class="o">.</span><span class="n">text</span> <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">content_elem</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">elem</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;p&#39;</span><span class="p">)]</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/requests/api.py</span> in <span class="ni">get</span><span class="nt">(url, params, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">71</span>     <span class="s2">&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">     </span><span class="mi">72</span><span class="s2"> </span>
-<span class="ne">---&gt; </span><span class="mi">73</span><span class="s2">     return request(&quot;get&quot;, url, params=params, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">74</span><span class="s2"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">75</span><span class="s2"> </span>
+<span class="nn">/usr/local/lib/python3.10/dist-packages/bs4/__init__.py</span> in <span class="ni">__init__</span><span class="nt">(self, markup, features, builder, parse_only, from_encoding, exclude_encodings, element_classes, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">331</span>             <span class="bp">self</span><span class="o">.</span><span class="n">builder</span><span class="o">.</span><span class="n">initialize_soup</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">332</span>             <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">333</span>                 <span class="bp">self</span><span class="o">.</span><span class="n">_feed</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">334</span>                 <span class="n">success</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="g g-Whitespace">    </span><span class="mi">335</span>                 <span class="k">break</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/requests/api.py</span> in <span class="ni">request</span><span class="nt">(method, url, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">57</span><span class="s2">     # cases, and look like a memory leak in others.</span>
-<span class="g g-Whitespace">     </span><span class="mi">58</span><span class="s2">     with sessions.Session() as session:</span>
-<span class="ne">---&gt; </span><span class="mi">59</span><span class="s2">         return session.request(method=method, url=url, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">60</span><span class="s2"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">61</span><span class="s2"> </span>
+<span class="nn">/usr/local/lib/python3.10/dist-packages/bs4/__init__.py</span> in <span class="ni">_feed</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">450</span>         <span class="bp">self</span><span class="o">.</span><span class="n">builder</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">451</span> 
+<span class="ne">--&gt; </span><span class="mi">452</span>         <span class="bp">self</span><span class="o">.</span><span class="n">builder</span><span class="o">.</span><span class="n">feed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">markup</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">453</span>         <span class="c1"># Close out any unfinished strings and close all the open tags.</span>
+<span class="g g-Whitespace">    </span><span class="mi">454</span>         <span class="bp">self</span><span class="o">.</span><span class="n">endData</span><span class="p">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/requests/sessions.py</span> in <span class="ni">request</span><span class="nt">(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)</span>
-<span class="g g-Whitespace">    </span><span class="mi">587</span><span class="s2">         }</span>
-<span class="g g-Whitespace">    </span><span class="mi">588</span><span class="s2">         send_kwargs.update(settings)</span>
-<span class="ne">--&gt; </span><span class="mi">589</span><span class="s2">         resp = self.send(prep, **send_kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">590</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">591</span><span class="s2">         return resp</span>
+<span class="nn">/usr/local/lib/python3.10/dist-packages/bs4/builder/_lxml.py</span> in <span class="ni">feed</span><span class="nt">(self, markup)</span>
+<span class="g g-Whitespace">    </span><span class="mi">376</span>         <span class="k">try</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">377</span>             <span class="bp">self</span><span class="o">.</span><span class="n">parser</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parser_for</span><span class="p">(</span><span class="n">encoding</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">378</span>             <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">feed</span><span class="p">(</span><span class="n">markup</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">379</span>             <span class="bp">self</span><span class="o">.</span><span class="n">parser</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">380</span>         <span class="k">except</span> <span class="p">(</span><span class="ne">UnicodeDecodeError</span><span class="p">,</span> <span class="ne">LookupError</span><span class="p">,</span> <span class="n">etree</span><span class="o">.</span><span class="n">ParserError</span><span class="p">)</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/requests/sessions.py</span> in <span class="ni">send</span><span class="nt">(self, request, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">701</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">702</span><span class="s2">         # Send the request</span>
-<span class="ne">--&gt; </span><span class="mi">703</span><span class="s2">         r = adapter.send(request, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">704</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">705</span><span class="s2">         # Total elapsed time of the request (approximately)</span>
+<span class="nn">src/lxml/parser.pxi</span> in <span class="ni">lxml.etree._FeedParser.feed</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/requests/adapters.py</span> in <span class="ni">send</span><span class="nt">(self, request, stream, timeout, verify, cert, proxies)</span>
-<span class="g g-Whitespace">    </span><span class="mi">484</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">485</span><span class="s2">         try:</span>
-<span class="ne">--&gt; </span><span class="mi">486</span><span class="s2">             resp = conn.urlopen(</span>
-<span class="g g-Whitespace">    </span><span class="mi">487</span><span class="s2">                 method=request.method,</span>
-<span class="g g-Whitespace">    </span><span class="mi">488</span><span class="s2">                 url=url,</span>
+<span class="nn">src/lxml/parser.pxi</span> in <span class="ni">lxml.etree._FeedParser.feed</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py</span> in <span class="ni">urlopen</span><span class="nt">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, preload_content, decode_content, **response_kw)</span>
-<span class="g g-Whitespace">    </span><span class="mi">789</span><span class="s2"> </span>
-<span class="g g-Whitespace">    </span><span class="mi">790</span><span class="s2">             # Make the request on the HTTPConnection object</span>
-<span class="ne">--&gt; </span><span class="mi">791</span><span class="s2">             response = self._make_request(</span>
-<span class="g g-Whitespace">    </span><span class="mi">792</span><span class="s2">                 conn,</span>
-<span class="g g-Whitespace">    </span><span class="mi">793</span><span class="s2">                 method,</span>
+<span class="nn">src/lxml/parsertarget.pxi</span> in <span class="ni">lxml.etree._TargetParserContext._handleParseResult</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py</span> in <span class="ni">_make_request</span><span class="nt">(self, conn, method, url, body, headers, retries, timeout, chunked, response_conn, preload_content, decode_content, enforce_content_length)</span>
-<span class="g g-Whitespace">    </span><span class="mi">466</span><span class="s2">             # Trigger any extra validation we need to do.</span>
-<span class="g g-Whitespace">    </span><span class="mi">467</span><span class="s2">             try:</span>
-<span class="ne">--&gt; </span><span class="mi">468</span><span class="s2">                 self._validate_conn(conn)</span>
-<span class="g g-Whitespace">    </span><span class="mi">469</span><span class="s2">             except (SocketTimeout, BaseSSLError) as e:</span>
-<span class="g g-Whitespace">    </span><span class="mi">470</span><span class="s2">                 self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)</span>
+<span class="nn">src/lxml/parsertarget.pxi</span> in <span class="ni">lxml.etree._TargetParserContext._handleParseResult</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connectionpool.py</span> in <span class="ni">_validate_conn</span><span class="nt">(self, conn)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1095</span><span class="s2">         # Force connect early to allow us to validate the connection.</span>
-<span class="g g-Whitespace">   </span><span class="mi">1096</span><span class="s2">         if conn.is_closed:</span>
-<span class="ne">-&gt; </span><span class="mi">1097</span><span class="s2">             conn.connect()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1098</span><span class="s2"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1099</span><span class="s2">         if not conn.is_verified:</span>
+<span class="nn">src/lxml/etree.pyx</span> in <span class="ni">lxml.etree._ExceptionContext._raise_if_stored</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connection.py</span> in <span class="ni">connect</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">640</span><span class="s2">             )</span>
-<span class="g g-Whitespace">    </span><span class="mi">641</span><span class="s2"> </span>
-<span class="ne">--&gt; </span><span class="mi">642</span><span class="s2">         sock_and_verified = _ssl_wrap_socket_and_match_hostname(</span>
-<span class="g g-Whitespace">    </span><span class="mi">643</span><span class="s2">             sock=sock,</span>
-<span class="g g-Whitespace">    </span><span class="mi">644</span><span class="s2">             cert_reqs=self.cert_reqs,</span>
+<span class="nn">src/lxml/saxparser.pxi</span> in <span class="ni">lxml.etree._handleSaxEndNoNs</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/connection.py</span> in <span class="ni">_ssl_wrap_socket_and_match_hostname</span><span class="nt">(sock, cert_reqs, ssl_version, ssl_minimum_version, ssl_maximum_version, cert_file, key_file, key_password, ca_certs, ca_cert_dir, ca_cert_data, assert_hostname, assert_fingerprint, server_hostname, ssl_context, tls_in_tls)</span>
-<span class="g g-Whitespace">    </span><span class="mi">781</span><span class="s2">             server_hostname = normalized</span>
-<span class="g g-Whitespace">    </span><span class="mi">782</span><span class="s2"> </span>
-<span class="ne">--&gt; </span><span class="mi">783</span><span class="s2">     ssl_sock = ssl_wrap_socket(</span>
-<span class="g g-Whitespace">    </span><span class="mi">784</span><span class="s2">         sock=sock,</span>
-<span class="g g-Whitespace">    </span><span class="mi">785</span><span class="s2">         keyfile=key_file,</span>
+<span class="nn">src/lxml/parsertarget.pxi</span> in <span class="ni">lxml.etree._PythonSaxParserTarget._handleSaxEnd</span><span class="nt">()</span>
 
-<span class="nn">/usr/local/lib/python3.10/dist-packages/urllib3/util/ssl_.py</span> in <span class="ni">ssl_wrap_socket</span><span class="nt">(sock, keyfile, certfile, cert_reqs, ca_certs, server_hostname, ssl_version, ciphers, ssl_context, ca_cert_dir, key_password, ca_cert_data, tls_in_tls)</span>
-<span class="g g-Whitespace">    </span><span class="mi">444</span><span class="s2">     if ca_certs or ca_cert_dir or ca_cert_data:</span>
-<span class="g g-Whitespace">    </span><span class="mi">445</span><span class="s2">         try:</span>
-<span class="ne">--&gt; </span><span class="mi">446</span><span class="s2">             context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)</span>
-<span class="g g-Whitespace">    </span><span class="mi">447</span><span class="s2">         except OSError as e:</span>
-<span class="g g-Whitespace">    </span><span class="mi">448</span><span class="s2">             raise SSLError(e) from e</span>
+<span class="nn">/usr/local/lib/python3.10/dist-packages/bs4/builder/_lxml.py</span> in <span class="ni">end</span><span class="nt">(self, name)</span>
+<span class="g g-Whitespace">    </span><span class="mi">314</span> 
+<span class="g g-Whitespace">    </span><span class="mi">315</span>     <span class="k">def</span> <span class="nf">end</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">316</span>         <span class="bp">self</span><span class="o">.</span><span class="n">soup</span><span class="o">.</span><span class="n">endData</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">317</span>         <span class="n">completed_tag</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">soup</span><span class="o">.</span><span class="n">tagStack</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="g g-Whitespace">    </span><span class="mi">318</span>         <span class="n">namespace</span><span class="p">,</span> <span class="n">name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_getNsTag</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+<span class="nn">/usr/local/lib/python3.10/dist-packages/bs4/__init__.py</span> in <span class="ni">endData</span><span class="nt">(self, containerClass)</span>
+<span class="g g-Whitespace">    </span><span class="mi">569</span>                 <span class="n">strippable</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="g g-Whitespace">    </span><span class="mi">570</span>                 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">current_data</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">571</span>                     <span class="k">if</span> <span class="n">i</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">ASCII_SPACES</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">572</span>                         <span class="n">strippable</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="g g-Whitespace">    </span><span class="mi">573</span>                         <span class="k">break</span>
 
 <span class="ne">KeyboardInterrupt</span>: 
 </pre></div>
@@ -804,7 +666,7 @@ data berhasil diambil[57] &gt; Pajajaran
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-2864dbdc-e8f0-4e5d-815d-87b3c8c70799" class="colab-df-container">
+  <div id="df-3415f6ef-9371-4a95-b352-88a59814498a" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -914,7 +776,7 @@ data berhasil diambil[57] &gt; Pajajaran
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-2864dbdc-e8f0-4e5d-815d-87b3c8c70799')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-3415f6ef-9371-4a95-b352-88a59814498a')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -966,12 +828,12 @@ data berhasil diambil[57] &gt; Pajajaran
 
     <script>
       const buttonEl =
-        document.querySelector('#df-2864dbdc-e8f0-4e5d-815d-87b3c8c70799 button.colab-df-convert');
+        document.querySelector('#df-3415f6ef-9371-4a95-b352-88a59814498a button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-2864dbdc-e8f0-4e5d-815d-87b3c8c70799');
+        const element = document.querySelector('#df-3415f6ef-9371-4a95-b352-88a59814498a');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -991,8 +853,8 @@ data berhasil diambil[57] &gt; Pajajaran
   </div>
 
 
-<div id="df-230e1a6d-050d-41b0-83f4-2cf867b21bd4">
-  <button class="colab-df-quickchart" onclick="quickchart('df-230e1a6d-050d-41b0-83f4-2cf867b21bd4')"
+<div id="df-caca8221-b14d-4a3d-ba38-c82afb9bb117">
+  <button class="colab-df-quickchart" onclick="quickchart('df-caca8221-b14d-4a3d-ba38-c82afb9bb117')"
             title="Suggest charts"
             style="display:none;">
 
@@ -1111,7 +973,7 @@ data berhasil diambil[57] &gt; Pajajaran
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-230e1a6d-050d-41b0-83f4-2cf867b21bd4 button');
+        document.querySelector('#df-caca8221-b14d-4a3d-ba38-c82afb9bb117 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -1190,7 +1052,7 @@ dtype: int64
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-c1d7f420-436b-469d-b964-e4e44245064a" class="colab-df-container">
+  <div id="df-6e2023a9-a166-4c3e-84fa-950967811e3a" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1300,7 +1162,7 @@ dtype: int64
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-c1d7f420-436b-469d-b964-e4e44245064a')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-6e2023a9-a166-4c3e-84fa-950967811e3a')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -1352,12 +1214,12 @@ dtype: int64
 
     <script>
       const buttonEl =
-        document.querySelector('#df-c1d7f420-436b-469d-b964-e4e44245064a button.colab-df-convert');
+        document.querySelector('#df-6e2023a9-a166-4c3e-84fa-950967811e3a button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-c1d7f420-436b-469d-b964-e4e44245064a');
+        const element = document.querySelector('#df-6e2023a9-a166-4c3e-84fa-950967811e3a');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1377,8 +1239,8 @@ dtype: int64
   </div>
 
 
-<div id="df-3d96f9d4-30e4-4607-b457-b532e87dbd15">
-  <button class="colab-df-quickchart" onclick="quickchart('df-3d96f9d4-30e4-4607-b457-b532e87dbd15')"
+<div id="df-411d6e74-c579-465a-8785-c8fa4f1bd9c7">
+  <button class="colab-df-quickchart" onclick="quickchart('df-411d6e74-c579-465a-8785-c8fa4f1bd9c7')"
             title="Suggest charts"
             style="display:none;">
 
@@ -1497,7 +1359,7 @@ dtype: int64
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-3d96f9d4-30e4-4607-b457-b532e87dbd15 button');
+        document.querySelector('#df-411d6e74-c579-465a-8785-c8fa4f1bd9c7 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -1515,6 +1377,14 @@ dtype: int64
 </div>
 <div class="cell_output docutils container">
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menyimpan DataFrame ke dalam berkas CSV</span>
+<span class="n">data_new</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;data_new_berita_kompas.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -1589,7 +1459,7 @@ Name: tokenizing, Length: 1033, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-6dd794cb-4680-4c38-8df6-cfcca9220d13" class="colab-df-container">
+  <div id="df-d8cb2d1c-5812-4b07-a0d5-9328577d82a8" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -1723,7 +1593,7 @@ Name: tokenizing, Length: 1033, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-6dd794cb-4680-4c38-8df6-cfcca9220d13')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-d8cb2d1c-5812-4b07-a0d5-9328577d82a8')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -1775,12 +1645,12 @@ Name: tokenizing, Length: 1033, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-6dd794cb-4680-4c38-8df6-cfcca9220d13 button.colab-df-convert');
+        document.querySelector('#df-d8cb2d1c-5812-4b07-a0d5-9328577d82a8 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-6dd794cb-4680-4c38-8df6-cfcca9220d13');
+        const element = document.querySelector('#df-d8cb2d1c-5812-4b07-a0d5-9328577d82a8');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -1800,8 +1670,8 @@ Name: tokenizing, Length: 1033, dtype: object
   </div>
 
 
-<div id="df-1e6637e1-5105-4e1a-a2f2-5badff969aef">
-  <button class="colab-df-quickchart" onclick="quickchart('df-1e6637e1-5105-4e1a-a2f2-5badff969aef')"
+<div id="df-e7491042-0d24-4bd7-9498-6b2da3a999e8">
+  <button class="colab-df-quickchart" onclick="quickchart('df-e7491042-0d24-4bd7-9498-6b2da3a999e8')"
             title="Suggest charts"
             style="display:none;">
 
@@ -1920,7 +1790,7 @@ Name: tokenizing, Length: 1033, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-1e6637e1-5105-4e1a-a2f2-5badff969aef button');
+        document.querySelector('#df-e7491042-0d24-4bd7-9498-6b2da3a999e8 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -1940,7 +1810,7 @@ Name: tokenizing, Length: 1033, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-6469d7c0-5a38-49cf-88ab-6a751dc6bf14" class="colab-df-container">
+  <div id="df-dd17e800-dbf3-4c56-baf5-2f1ffbea471c" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -2086,7 +1956,7 @@ Name: tokenizing, Length: 1033, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-6469d7c0-5a38-49cf-88ab-6a751dc6bf14')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-dd17e800-dbf3-4c56-baf5-2f1ffbea471c')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -2138,12 +2008,12 @@ Name: tokenizing, Length: 1033, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-6469d7c0-5a38-49cf-88ab-6a751dc6bf14 button.colab-df-convert');
+        document.querySelector('#df-dd17e800-dbf3-4c56-baf5-2f1ffbea471c button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-6469d7c0-5a38-49cf-88ab-6a751dc6bf14');
+        const element = document.querySelector('#df-dd17e800-dbf3-4c56-baf5-2f1ffbea471c');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -2163,8 +2033,8 @@ Name: tokenizing, Length: 1033, dtype: object
   </div>
 
 
-<div id="df-f80ff63b-58ad-4598-9a8d-d71f031ec489">
-  <button class="colab-df-quickchart" onclick="quickchart('df-f80ff63b-58ad-4598-9a8d-d71f031ec489')"
+<div id="df-82432f54-38d3-4828-8af3-aa949adba963">
+  <button class="colab-df-quickchart" onclick="quickchart('df-82432f54-38d3-4828-8af3-aa949adba963')"
             title="Suggest charts"
             style="display:none;">
 
@@ -2283,7 +2153,7 @@ Name: tokenizing, Length: 1033, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-f80ff63b-58ad-4598-9a8d-d71f031ec489 button');
+        document.querySelector('#df-82432f54-38d3-4828-8af3-aa949adba963 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -2324,7 +2194,7 @@ Name: tokenizing, Length: 1033, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-d096181e-5199-49da-9937-56541dca6d28" class="colab-df-container">
+  <div id="df-6542c1a4-07b7-4dcf-bd84-b6bc5039ec06" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -2638,7 +2508,7 @@ Name: tokenizing, Length: 1033, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-d096181e-5199-49da-9937-56541dca6d28')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-6542c1a4-07b7-4dcf-bd84-b6bc5039ec06')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -2690,12 +2560,12 @@ Name: tokenizing, Length: 1033, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-d096181e-5199-49da-9937-56541dca6d28 button.colab-df-convert');
+        document.querySelector('#df-6542c1a4-07b7-4dcf-bd84-b6bc5039ec06 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-d096181e-5199-49da-9937-56541dca6d28');
+        const element = document.querySelector('#df-6542c1a4-07b7-4dcf-bd84-b6bc5039ec06');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -2715,8 +2585,8 @@ Name: tokenizing, Length: 1033, dtype: object
   </div>
 
 
-<div id="df-d78b45d1-8e18-4c62-bfa5-7b449ba4a58f">
-  <button class="colab-df-quickchart" onclick="quickchart('df-d78b45d1-8e18-4c62-bfa5-7b449ba4a58f')"
+<div id="df-5413f3d7-53aa-4a8f-8d3e-9d70dac9c112">
+  <button class="colab-df-quickchart" onclick="quickchart('df-5413f3d7-53aa-4a8f-8d3e-9d70dac9c112')"
             title="Suggest charts"
             style="display:none;">
 
@@ -2835,7 +2705,7 @@ Name: tokenizing, Length: 1033, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-d78b45d1-8e18-4c62-bfa5-7b449ba4a58f button');
+        document.querySelector('#df-5413f3d7-53aa-4a8f-8d3e-9d70dac9c112 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -2886,7 +2756,7 @@ Name: Category, Length: 1035, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-2b066ddb-cfd3-4944-b6f6-be620f14d953" class="colab-df-container">
+  <div id="df-b773d90c-85cd-4bcd-baaf-c9259d6c85e1" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -3200,7 +3070,7 @@ Name: Category, Length: 1035, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-2b066ddb-cfd3-4944-b6f6-be620f14d953')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-b773d90c-85cd-4bcd-baaf-c9259d6c85e1')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -3252,12 +3122,12 @@ Name: Category, Length: 1035, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-2b066ddb-cfd3-4944-b6f6-be620f14d953 button.colab-df-convert');
+        document.querySelector('#df-b773d90c-85cd-4bcd-baaf-c9259d6c85e1 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-2b066ddb-cfd3-4944-b6f6-be620f14d953');
+        const element = document.querySelector('#df-b773d90c-85cd-4bcd-baaf-c9259d6c85e1');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -3277,8 +3147,8 @@ Name: Category, Length: 1035, dtype: object
   </div>
 
 
-<div id="df-3883231a-082d-4351-8b77-cc158037f7e8">
-  <button class="colab-df-quickchart" onclick="quickchart('df-3883231a-082d-4351-8b77-cc158037f7e8')"
+<div id="df-2cfb4d88-2399-4aba-bc7e-7c81ab04c314">
+  <button class="colab-df-quickchart" onclick="quickchart('df-2cfb4d88-2399-4aba-bc7e-7c81ab04c314')"
             title="Suggest charts"
             style="display:none;">
 
@@ -3397,7 +3267,7 @@ Name: Category, Length: 1035, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-3883231a-082d-4351-8b77-cc158037f7e8 button');
+        document.querySelector('#df-2cfb4d88-2399-4aba-bc7e-7c81ab04c314 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -3424,7 +3294,7 @@ Name: Category, Length: 1035, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-45c67ad7-ff1f-4646-a547-495eddd37e89" class="colab-df-container">
+  <div id="df-a0c849be-5c72-477e-a2cd-c99c61318140" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -3738,7 +3608,7 @@ Name: Category, Length: 1035, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-45c67ad7-ff1f-4646-a547-495eddd37e89')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-a0c849be-5c72-477e-a2cd-c99c61318140')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -3790,12 +3660,12 @@ Name: Category, Length: 1035, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-45c67ad7-ff1f-4646-a547-495eddd37e89 button.colab-df-convert');
+        document.querySelector('#df-a0c849be-5c72-477e-a2cd-c99c61318140 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-45c67ad7-ff1f-4646-a547-495eddd37e89');
+        const element = document.querySelector('#df-a0c849be-5c72-477e-a2cd-c99c61318140');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -3815,8 +3685,8 @@ Name: Category, Length: 1035, dtype: object
   </div>
 
 
-<div id="df-c473a2ca-ccaf-4194-8e08-b10caeb734ab">
-  <button class="colab-df-quickchart" onclick="quickchart('df-c473a2ca-ccaf-4194-8e08-b10caeb734ab')"
+<div id="df-c5354b11-399a-4a95-b4cb-7317b4164b43">
+  <button class="colab-df-quickchart" onclick="quickchart('df-c5354b11-399a-4a95-b4cb-7317b4164b43')"
             title="Suggest charts"
             style="display:none;">
 
@@ -3935,7 +3805,7 @@ Name: Category, Length: 1035, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-c473a2ca-ccaf-4194-8e08-b10caeb734ab button');
+        document.querySelector('#df-c5354b11-399a-4a95-b4cb-7317b4164b43 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -3994,7 +3864,7 @@ Name: Category, Length: 1035, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-4a7f24c6-33ed-4af2-a978-fa0c5e747e4c" class="colab-df-container">
+  <div id="df-ee9ad38f-202f-44cb-b5bb-e2dec61ec81c" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -4021,33 +3891,33 @@ Name: Category, Length: 1035, dtype: object
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.982276</td>
       <td>0.008862</td>
-      <td>0.008862</td>
+      <td>0.982275</td>
+      <td>0.008863</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.976350</td>
       <td>0.011825</td>
-      <td>0.011825</td>
+      <td>0.976347</td>
+      <td>0.011828</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.976950</td>
       <td>0.011525</td>
-      <td>0.011525</td>
+      <td>0.976949</td>
+      <td>0.011526</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.981518</td>
       <td>0.009241</td>
-      <td>0.009241</td>
+      <td>0.706022</td>
+      <td>0.284736</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.983142</td>
       <td>0.008429</td>
-      <td>0.008429</td>
+      <td>0.008432</td>
+      <td>0.983139</td>
     </tr>
     <tr>
       <th>...</th>
@@ -4057,33 +3927,33 @@ Name: Category, Length: 1035, dtype: object
     </tr>
     <tr>
       <th>821</th>
-      <td>0.979327</td>
       <td>0.010337</td>
+      <td>0.979326</td>
       <td>0.010337</td>
     </tr>
     <tr>
       <th>822</th>
-      <td>0.976672</td>
       <td>0.011664</td>
+      <td>0.976672</td>
       <td>0.011664</td>
     </tr>
     <tr>
       <th>823</th>
-      <td>0.982229</td>
       <td>0.008886</td>
-      <td>0.008886</td>
+      <td>0.982228</td>
+      <td>0.008887</td>
     </tr>
     <tr>
       <th>824</th>
-      <td>0.980643</td>
       <td>0.009679</td>
+      <td>0.980642</td>
       <td>0.009679</td>
     </tr>
     <tr>
       <th>825</th>
-      <td>0.983175</td>
       <td>0.008412</td>
-      <td>0.008412</td>
+      <td>0.626180</td>
+      <td>0.365407</td>
     </tr>
   </tbody>
 </table>
@@ -4092,7 +3962,7 @@ Name: Category, Length: 1035, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-4a7f24c6-33ed-4af2-a978-fa0c5e747e4c')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-ee9ad38f-202f-44cb-b5bb-e2dec61ec81c')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -4144,12 +4014,12 @@ Name: Category, Length: 1035, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-4a7f24c6-33ed-4af2-a978-fa0c5e747e4c button.colab-df-convert');
+        document.querySelector('#df-ee9ad38f-202f-44cb-b5bb-e2dec61ec81c button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-4a7f24c6-33ed-4af2-a978-fa0c5e747e4c');
+        const element = document.querySelector('#df-ee9ad38f-202f-44cb-b5bb-e2dec61ec81c');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -4169,8 +4039,8 @@ Name: Category, Length: 1035, dtype: object
   </div>
 
 
-<div id="df-a85d5750-3350-4d68-b100-5b67eaa1a636">
-  <button class="colab-df-quickchart" onclick="quickchart('df-a85d5750-3350-4d68-b100-5b67eaa1a636')"
+<div id="df-b1624491-a272-4e4e-9a2b-eccfc10165dd">
+  <button class="colab-df-quickchart" onclick="quickchart('df-b1624491-a272-4e4e-9a2b-eccfc10165dd')"
             title="Suggest charts"
             style="display:none;">
 
@@ -4289,7 +4159,7 @@ Name: Category, Length: 1035, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-a85d5750-3350-4d68-b100-5b67eaa1a636 button');
+        document.querySelector('#df-b1624491-a272-4e4e-9a2b-eccfc10165dd button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -4315,7 +4185,7 @@ Name: Category, Length: 1035, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-7908d673-5035-4ed7-b337-e68d8ee7a2e7" class="colab-df-container">
+  <div id="df-5a9053fb-f731-4e7f-b2db-ec3458ea7507" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -4343,37 +4213,37 @@ Name: Category, Length: 1035, dtype: object
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.982276</td>
       <td>0.008862</td>
-      <td>0.008862</td>
+      <td>0.982275</td>
+      <td>0.008863</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.976350</td>
       <td>0.011825</td>
-      <td>0.011825</td>
+      <td>0.976347</td>
+      <td>0.011828</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.976950</td>
       <td>0.011525</td>
-      <td>0.011525</td>
+      <td>0.976949</td>
+      <td>0.011526</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.981518</td>
       <td>0.009241</td>
-      <td>0.009241</td>
+      <td>0.706022</td>
+      <td>0.284736</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.983142</td>
       <td>0.008429</td>
-      <td>0.008429</td>
+      <td>0.008432</td>
+      <td>0.983139</td>
       <td>Sports</td>
     </tr>
     <tr>
@@ -4425,7 +4295,7 @@ Name: Category, Length: 1035, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-7908d673-5035-4ed7-b337-e68d8ee7a2e7')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-5a9053fb-f731-4e7f-b2db-ec3458ea7507')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -4477,12 +4347,12 @@ Name: Category, Length: 1035, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-7908d673-5035-4ed7-b337-e68d8ee7a2e7 button.colab-df-convert');
+        document.querySelector('#df-5a9053fb-f731-4e7f-b2db-ec3458ea7507 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-7908d673-5035-4ed7-b337-e68d8ee7a2e7');
+        const element = document.querySelector('#df-5a9053fb-f731-4e7f-b2db-ec3458ea7507');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -4502,8 +4372,8 @@ Name: Category, Length: 1035, dtype: object
   </div>
 
 
-<div id="df-04aadba5-80a8-4668-8c4d-2433fe29140c">
-  <button class="colab-df-quickchart" onclick="quickchart('df-04aadba5-80a8-4668-8c4d-2433fe29140c')"
+<div id="df-9619bf99-e9b9-4735-aca0-1859bf212d85">
+  <button class="colab-df-quickchart" onclick="quickchart('df-9619bf99-e9b9-4735-aca0-1859bf212d85')"
             title="Suggest charts"
             style="display:none;">
 
@@ -4622,7 +4492,7 @@ Name: Category, Length: 1035, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-04aadba5-80a8-4668-8c4d-2433fe29140c button');
+        document.querySelector('#df-9619bf99-e9b9-4735-aca0-1859bf212d85 button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -4643,7 +4513,7 @@ Name: Category, Length: 1035, dtype: object
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-6849eaa5-4d1f-40c2-8f72-ec0007dc8169" class="colab-df-container">
+  <div id="df-9fd83c54-5056-45dc-a2df-ccc061d2f085" class="colab-df-container">
     <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -4671,37 +4541,37 @@ Name: Category, Length: 1035, dtype: object
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.982276</td>
       <td>0.008862</td>
-      <td>0.008862</td>
+      <td>0.982275</td>
+      <td>0.008863</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>0.976350</td>
       <td>0.011825</td>
-      <td>0.011825</td>
+      <td>0.976347</td>
+      <td>0.011828</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0.976950</td>
       <td>0.011525</td>
-      <td>0.011525</td>
+      <td>0.976949</td>
+      <td>0.011526</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>0.981518</td>
       <td>0.009241</td>
-      <td>0.009241</td>
+      <td>0.706022</td>
+      <td>0.284736</td>
       <td>Sports</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>0.983142</td>
       <td>0.008429</td>
-      <td>0.008429</td>
+      <td>0.008432</td>
+      <td>0.983139</td>
       <td>Sports</td>
     </tr>
     <tr>
@@ -4713,37 +4583,37 @@ Name: Category, Length: 1035, dtype: object
     </tr>
     <tr>
       <th>821</th>
-      <td>0.979327</td>
       <td>0.010337</td>
+      <td>0.979326</td>
       <td>0.010337</td>
       <td>Otomotif</td>
     </tr>
     <tr>
       <th>822</th>
-      <td>0.976672</td>
       <td>0.011664</td>
+      <td>0.976672</td>
       <td>0.011664</td>
       <td>Otomotif</td>
     </tr>
     <tr>
       <th>823</th>
-      <td>0.982229</td>
       <td>0.008886</td>
-      <td>0.008886</td>
+      <td>0.982228</td>
+      <td>0.008887</td>
       <td>Otomotif</td>
     </tr>
     <tr>
       <th>824</th>
-      <td>0.980643</td>
       <td>0.009679</td>
+      <td>0.980642</td>
       <td>0.009679</td>
       <td>Otomotif</td>
     </tr>
     <tr>
       <th>825</th>
-      <td>0.983175</td>
       <td>0.008412</td>
-      <td>0.008412</td>
+      <td>0.626180</td>
+      <td>0.365407</td>
       <td>Otomotif</td>
     </tr>
   </tbody>
@@ -4753,7 +4623,7 @@ Name: Category, Length: 1035, dtype: object
     <div class="colab-df-buttons">
 
   <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-6849eaa5-4d1f-40c2-8f72-ec0007dc8169')"
+    <button class="colab-df-convert" onclick="convertToInteractive('df-9fd83c54-5056-45dc-a2df-ccc061d2f085')"
             title="Convert this dataframe to an interactive table."
             style="display:none;">
 
@@ -4805,12 +4675,12 @@ Name: Category, Length: 1035, dtype: object
 
     <script>
       const buttonEl =
-        document.querySelector('#df-6849eaa5-4d1f-40c2-8f72-ec0007dc8169 button.colab-df-convert');
+        document.querySelector('#df-9fd83c54-5056-45dc-a2df-ccc061d2f085 button.colab-df-convert');
       buttonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
 
       async function convertToInteractive(key) {
-        const element = document.querySelector('#df-6849eaa5-4d1f-40c2-8f72-ec0007dc8169');
+        const element = document.querySelector('#df-9fd83c54-5056-45dc-a2df-ccc061d2f085');
         const dataTable =
           await google.colab.kernel.invokeFunction('convertToInteractive',
                                                     [key], {});
@@ -4830,8 +4700,8 @@ Name: Category, Length: 1035, dtype: object
   </div>
 
 
-<div id="df-5e9d21db-17bd-4cbf-87e1-86775bea6387">
-  <button class="colab-df-quickchart" onclick="quickchart('df-5e9d21db-17bd-4cbf-87e1-86775bea6387')"
+<div id="df-adf1d373-d861-4ffe-a5c0-c7b2d1c7724c">
+  <button class="colab-df-quickchart" onclick="quickchart('df-adf1d373-d861-4ffe-a5c0-c7b2d1c7724c')"
             title="Suggest charts"
             style="display:none;">
 
@@ -4950,7 +4820,7 @@ Name: Category, Length: 1035, dtype: object
     }
     (() => {
       let quickchartButtonEl =
-        document.querySelector('#df-5e9d21db-17bd-4cbf-87e1-86775bea6387 button');
+        document.querySelector('#df-adf1d373-d861-4ffe-a5c0-c7b2d1c7724c button');
       quickchartButtonEl.style.display =
         google.colab.kernel.accessAllowed ? 'block' : 'none';
     })();
@@ -4997,7 +4867,7 @@ Name: Category, Length: 1035, dtype: object
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 0.42168674698795183
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 0.4397590361445783
 </pre></div>
 </div>
 </div>
@@ -5026,8 +4896,8 @@ Name: Category, Length: 1035, dtype: object
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>akurasi nb 41.52
-akurasi knn 68.48
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>akurasi nb 45.76
+akurasi knn 68.64
 </pre></div>
 </div>
 </div>
@@ -5049,7 +4919,7 @@ akurasi knn 68.48
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 0.42168674698795183
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 0.4578313253012048
 </pre></div>
 </div>
 </div>
@@ -5158,6 +5028,1355 @@ akurasi knn 68.48
 </div>
 </div>
 </section>
+<section id="text-klasifikasi">
+<h2>Text klasifikasi<a class="headerlink" href="#text-klasifikasi" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_new</span> <span class="o">=</span> <span class="n">data_new</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;final_content&#39;</span><span class="p">:</span> <span class="s1">&#39;summary&#39;</span><span class="p">})</span>
+<span class="n">data_new</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-5099b287-baab-46a0-a063-f2c94e3ad691" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Judul_Artikel</th>
+      <th>Tanggal Publish</th>
+      <th>Content_Artikel</th>
+      <th>Category</th>
+      <th>clean_content</th>
+      <th>tokenizing</th>
+      <th>summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Dampak Besar Kehadiran Messi di Amerika, MLS J...</td>
+      <td>11/12/2023, 11:30 WIB</td>
+      <td>KOMPAS.com - Kehadiran Lionel Messi memberikan...</td>
+      <td>Sports</td>
+      <td>kompascom  kehadiran lionel messi memberikan d...</td>
+      <td>[kompascom  kehadiran lionel messi memberikan ...</td>
+      <td>kompascom  kehadiran lionel messi memberikan d...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ze Valente dan Irfan Bachdim Datang, Persik Ma...</td>
+      <td>11/12/2023, 10:30 WIB</td>
+      <td>KOMPAS.com - Kedatangan Ze Valente dan Irfan B...</td>
+      <td>Sports</td>
+      <td>kompascom  kedatangan ze valente dan irfan bac...</td>
+      <td>[kompascom  kedatangan ze valente dan irfan ba...</td>
+      <td>kompascom  kedatangan ze valente dan irfan bac...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Manchester United Tak Kunjung Temukan Konsiste...</td>
+      <td>11/12/2023, 10:00 WIB</td>
+      <td>KOMPAS.com - Gary Neville menilai memecat Erik...</td>
+      <td>Sports</td>
+      <td>kompascom  gary neville menilai memecat erik t...</td>
+      <td>[kompascom  gary neville menilai memecat erik ...</td>
+      <td>kompascom  gary neville menilai memecat erik t...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>SAC Indonesia 2023 Jawa Timur Tuntas Digelar, ...</td>
+      <td>11/12/2023, 08:30 WIB</td>
+      <td>KOMPAS.com - Kompetisi atletik pelajar terbesa...</td>
+      <td>Sports</td>
+      <td>kompascom  kompetisi atletik pelajar terbesar ...</td>
+      <td>[kompascom  kompetisi atletik pelajar terbesar...</td>
+      <td>kompascom  kompetisi atletik pelajar terbesar ...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>BIN Pasundan Juara Livoli Divisi Utama 2023, L...</td>
+      <td>11/12/2023, 07:56 WIB</td>
+      <td>KOMPAS.com - BIN Pasundan berhasil keluar seba...</td>
+      <td>Sports</td>
+      <td>kompascom  bin pasundan berhasil keluar sebaga...</td>
+      <td>[kompascom  bin pasundan berhasil keluar sebag...</td>
+      <td>kompascom  bin pasundan berhasil keluar sebaga...</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1028</th>
+      <td>Musim Hujan, Jangan Coba Terabas Jalanan yang ...</td>
+      <td>04/12/2023, 19:21 WIB</td>
+      <td>JAKARTA, KOMPAS.com - Kondisi cuaca saat ini m...</td>
+      <td>Otomotif</td>
+      <td>jakarta kompascom  kondisi cuaca saat ini mula...</td>
+      <td>[jakarta kompascom  kondisi cuaca saat ini mul...</td>
+      <td>jakarta kompascom  kondisi cuaca saat ini mula...</td>
+    </tr>
+    <tr>
+      <th>1029</th>
+      <td>Jangan Cuek, Ketahui Batas Toleransi Ganti Oli...</td>
+      <td>04/12/2023, 19:12 WIB</td>
+      <td>TANGERANG, KOMPAS.com - Ganti oli motor secara...</td>
+      <td>Otomotif</td>
+      <td>tangerang kompascom  ganti oli motor secara be...</td>
+      <td>[tangerang kompascom  ganti oli motor secara b...</td>
+      <td>tangerang kompascom  ganti oli motor secara be...</td>
+    </tr>
+    <tr>
+      <th>1030</th>
+      <td>Adu Desain, Lebih Ganteng Hyundai Ioniq 5 atau...</td>
+      <td>04/12/2023, 19:01 WIB</td>
+      <td>JAKARTA, KOMPAS.com - Pilihan mobil listrik ya...</td>
+      <td>Otomotif</td>
+      <td>jakarta kompascom  pilihan mobil listrik yang ...</td>
+      <td>[jakarta kompascom  pilihan mobil listrik yang...</td>
+      <td>jakarta kompascom  pilihan mobil listrik yang ...</td>
+    </tr>
+    <tr>
+      <th>1031</th>
+      <td>Memasuki Musim Pancaroba, Perhatikan Karet Wip...</td>
+      <td>04/12/2023, 18:41 WIB</td>
+      <td>JAKARTA, KOMPAS.com - Saat ini sejumlah kota d...</td>
+      <td>Otomotif</td>
+      <td>jakarta kompascom  saat ini sejumlah kota di i...</td>
+      <td>[jakarta kompascom  saat ini sejumlah kota di ...</td>
+      <td>jakarta kompascom  saat ini sejumlah kota di i...</td>
+    </tr>
+    <tr>
+      <th>1032</th>
+      <td>Benarkah Oli Mobil Bisa Kedaluwarsa?</td>
+      <td>04/12/2023, 18:31 WIB</td>
+      <td>JAKARTA, KOMPAS.com - Pelumas atau oli mesin m...</td>
+      <td>Otomotif</td>
+      <td>jakarta kompascom  pelumas atau oli mesin meru...</td>
+      <td>[jakarta kompascom  pelumas atau oli mesin mer...</td>
+      <td>jakarta kompascom  pelumas atau oli mesin meru...</td>
+    </tr>
+  </tbody>
+</table>
+<p>1033 rows × 7 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-5099b287-baab-46a0-a063-f2c94e3ad691')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-5099b287-baab-46a0-a063-f2c94e3ad691 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-5099b287-baab-46a0-a063-f2c94e3ad691');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-98b7d197-ced8-456f-8e9e-21954fa3de43">
+  <button class="colab-df-quickchart" onclick="quickchart('df-98b7d197-ced8-456f-8e9e-21954fa3de43')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-98b7d197-ced8-456f-8e9e-21954fa3de43 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+</div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">new_df_sm</span> <span class="o">=</span> <span class="n">data_new</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">]</span>
+<span class="n">new_df_sm</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0       kompascom  kehadiran lionel messi memberikan d...
+1       kompascom  kedatangan ze valente dan irfan bac...
+2       kompascom  gary neville menilai memecat erik t...
+3       kompascom  kompetisi atletik pelajar terbesar ...
+4       kompascom  bin pasundan berhasil keluar sebaga...
+                              ...                        
+1028    jakarta kompascom  kondisi cuaca saat ini mula...
+1029    tangerang kompascom  ganti oli motor secara be...
+1030    jakarta kompascom  pilihan mobil listrik yang ...
+1031    jakarta kompascom  saat ini sejumlah kota di i...
+1032    jakarta kompascom  pelumas atau oli mesin meru...
+Name: summary, Length: 1033, dtype: object
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_final_sm</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">new_df_sm</span><span class="p">,</span> <span class="n">data_label</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">data_final_sm</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-b9488c02-5d5b-4350-a916-5930f19744ee" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>summary</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>kompascom  kehadiran lionel messi memberikan d...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>kompascom  kedatangan ze valente dan irfan bac...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>kompascom  gary neville menilai memecat erik t...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>kompascom  kompetisi atletik pelajar terbesar ...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>kompascom  bin pasundan berhasil keluar sebaga...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1030</th>
+      <td>jakarta kompascom  pilihan mobil listrik yang ...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1031</th>
+      <td>jakarta kompascom  saat ini sejumlah kota di i...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1032</th>
+      <td>jakarta kompascom  pelumas atau oli mesin meru...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1033</th>
+      <td>NaN</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1034</th>
+      <td>NaN</td>
+      <td>Otomotif</td>
+    </tr>
+  </tbody>
+</table>
+<p>1035 rows × 2 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-b9488c02-5d5b-4350-a916-5930f19744ee')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-b9488c02-5d5b-4350-a916-5930f19744ee button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-b9488c02-5d5b-4350-a916-5930f19744ee');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-22ca91cc-51ba-490b-ad99-ae21ca78a0f5">
+  <button class="colab-df-quickchart" onclick="quickchart('df-22ca91cc-51ba-490b-ad99-ae21ca78a0f5')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-22ca91cc-51ba-490b-ad99-ae21ca78a0f5 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+</div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_final_sm</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span>
+<span class="n">data_final_sm</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">,</span> <span class="s1">&#39;Category&#39;</span><span class="p">],</span><span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Cek kembali nilai NaN</span>
+<span class="n">data_final_sm</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-886ce176-d7da-42e2-87ce-ffa47687d8d0" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>summary</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>kompascom  kehadiran lionel messi memberikan d...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>kompascom  kedatangan ze valente dan irfan bac...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>kompascom  gary neville menilai memecat erik t...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>kompascom  kompetisi atletik pelajar terbesar ...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>kompascom  bin pasundan berhasil keluar sebaga...</td>
+      <td>Sports</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1028</th>
+      <td>jakarta kompascom  kondisi cuaca saat ini mula...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1029</th>
+      <td>tangerang kompascom  ganti oli motor secara be...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1030</th>
+      <td>jakarta kompascom  pilihan mobil listrik yang ...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1031</th>
+      <td>jakarta kompascom  saat ini sejumlah kota di i...</td>
+      <td>Otomotif</td>
+    </tr>
+    <tr>
+      <th>1032</th>
+      <td>jakarta kompascom  pelumas atau oli mesin meru...</td>
+      <td>Otomotif</td>
+    </tr>
+  </tbody>
+</table>
+<p>1033 rows × 2 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-886ce176-d7da-42e2-87ce-ffa47687d8d0')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-886ce176-d7da-42e2-87ce-ffa47687d8d0 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-886ce176-d7da-42e2-87ce-ffa47687d8d0');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-9cd6f3ab-8bc9-4eaf-9e30-1f8ff7c4f391">
+  <button class="colab-df-quickchart" onclick="quickchart('df-9cd6f3ab-8bc9-4eaf-9e30-1f8ff7c4f391')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-9cd6f3ab-8bc9-4eaf-9e30-1f8ff7c4f391 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+</div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_final_sm</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;data_final_sm.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vectorizer_summary</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">()</span>
+<span class="n">X_summary</span> <span class="o">=</span> <span class="n">vectorizer_summary</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data_final_sm</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">data_final_sm</span><span class="p">[</span><span class="s2">&quot;Category&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_train_summary</span><span class="p">,</span> <span class="n">X_test_summary</span><span class="p">,</span> <span class="n">y_train_summary</span><span class="p">,</span> <span class="n">y_test_summary</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X_summary</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Inisialisasi model Naive Bayes Gaussian</span>
+<span class="n">gnb_summary</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
+
+<span class="c1"># Melatih model menggunakan data latih</span>
+<span class="n">gnb_summary</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_summary</span><span class="p">,</span> <span class="n">y_train_summary</span><span class="p">)</span>
+
+<span class="c1"># Membuat prediksi pada data uji</span>
+<span class="n">y_pred_gnb_summary</span> <span class="o">=</span> <span class="n">gnb_summary</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_summary</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mengukur kinerja model dengan menghitung akurasi atau metrik lain yang relevan</span>
+<span class="n">accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test_summary</span><span class="p">,</span> <span class="n">y_pred_gnb_summary</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Akurasi: </span><span class="si">{</span><span class="n">accuracy</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 0.964516129032258
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_final_sm</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">][</span><span class="mi">1028</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;jakarta kompascom  kondisi cuaca saat ini mulai masuk ke musim hujan banyak kondisi jalan yang tergenang air bahkan sampai banjir saat hujan turun dengan deras kalau bertemu dengan jalanan yang tergenang air sebenarnya jangan coba memaksa melewati jalan tersebut walau memang ada saja keperluan yang kepepet atau jadi jalan satusatunya head of safety riding promotion wahana agus sani mengatakan ada saja risiko pengendara kalau memaksa melewati jalanan banjir pakai motor baca juga daftar harga motor bebek per desember  kompascomm elgana mubarokah banjir setinggi  sentimeter hingga  meter merendam  rw di kampung bojongasih desa dayeuhkolot kecamatan dayeuhkolot kabupaten bandung jawa barat pada jumat  banjir tersebut akibat luapa sungai citarum yang tak jauh dari pemukiman warga risiko melewati jalan banjir cukup tinggi berpotensi mogok di tengah banjir atau masuk ke dalam lubang yang ada di jalan kata agus kepada kompascom belum lama ini soal mogok banyak kemungkinan air masuk ke ruang mesin seperti dari knalpot dan juga lubang udara kalau air sudah masuk mesin bisa rusak karena kemasukan benda asing selain udara dan bensin baca juga akhir tahun diskon kia sonet sentuh rp  jutaan  kemudian buat lubang saat jalanan banjir tentu jadi tidak terlihat dalamnya juga tidak ketahuan biasanya kalau sudah terjebak pengendara bisa jatuh dan melukai diri sendiri potensi luka pasti ada mas jadi memang sebaiknya jangan memaksakan kata agus jadi lebih baik lagi buat mencari jalan alternatif kalau misalnya tidak mau melewati jalanan banjir sabar saja jangan menerabas sebelum tau konsekuensinya apa&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">new_data</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;jakarta kompascom  kondisi cuaca saat ini mulai masuk ke musim hujan banyak kondisi jalan yang tergenang air bahkan sampai banjir saat hujan turun dengan deras kalau bertemu dengan jalanan yang tergenang air sebenarnya jangan coba memaksa melewati jalan tersebut walau memang ada saja keperluan yang kepepet atau jadi jalan satusatunya head of safety riding promotion wahana agus sani mengatakan ada saja risiko pengendara kalau memaksa melewati jalanan banjir pakai motor baca juga daftar harga motor bebek per desember  kompascomm elgana mubarokah banjir setinggi  sentimeter hingga  meter merendam  rw di kampung bojongasih desa dayeuhkolot kecamatan dayeuhkolot kabupaten bandung jawa barat pada jumat  banjir tersebut akibat luapa sungai citarum yang tak jauh dari pemukiman warga risiko melewati jalan banjir cukup tinggi berpotensi mogok di tengah banjir atau masuk ke dalam lubang yang ada di jalan kata agus kepada kompascom belum lama ini soal mogok banyak kemungkinan air masuk ke ruang mesin seperti dari knalpot dan juga lubang udara kalau air sudah masuk mesin bisa rusak karena kemasukan benda asing selain udara dan bensin baca juga akhir tahun diskon kia sonet sentuh rp  jutaan  kemudian buat lubang saat jalanan banjir tentu jadi tidak terlihat dalamnya juga tidak ketahuan biasanya kalau sudah terjebak pengendara bisa jatuh dan melukai diri sendiri potensi luka pasti ada mas jadi memang sebaiknya jangan memaksakan kata agus jadi lebih baik lagi buat mencari jalan alternatif kalau misalnya tidak mau melewati jalanan banjir sabar saja jangan menerabas sebelum tau konsekuensinya apa&quot;</span><span class="p">]</span>
+<span class="n">new_data_summary</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">(</span><span class="n">new_data</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">new_data_summary</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;jakarta kompascom  kondisi cuaca saat ini mulai masuk ke musim hujan banyak kondisi jalan yang tergenang air bahkan sampai banjir saat hujan turun dengan deras kalau bertemu dengan jalanan yang tergenang air sebenarnya jangan coba memaksa melewati jalan tersebut walau memang ada saja keperluan yang kepepet atau jadi jalan satusatunya head of safety riding promotion wahana agus sani mengatakan ada saja risiko pengendara kalau memaksa melewati jalanan banjir pakai motor baca juga daftar harga motor bebek per desember  kompascomm elgana mubarokah banjir setinggi  sentimeter hingga  meter merendam  rw di kampung bojongasih desa dayeuhkolot kecamatan dayeuhkolot kabupaten bandung jawa barat pada jumat  banjir tersebut akibat luapa sungai citarum yang tak jauh dari pemukiman warga risiko melewati jalan banjir cukup tinggi berpotensi mogok di tengah banjir atau masuk ke dalam lubang yang ada di jalan kata agus kepada kompascom belum lama ini soal mogok banyak kemungkinan air masuk ke ruang mesin seperti dari knalpot dan juga lubang udara kalau air sudah masuk mesin bisa rusak karena kemasukan benda asing selain udara dan bensin baca juga akhir tahun diskon kia sonet sentuh rp  jutaan  kemudian buat lubang saat jalanan banjir tentu jadi tidak terlihat dalamnya juga tidak ketahuan biasanya kalau sudah terjebak pengendara bisa jatuh dan melukai diri sendiri potensi luka pasti ada mas jadi memang sebaiknya jangan memaksakan kata agus jadi lebih baik lagi buat mencari jalan alternatif kalau misalnya tidak mau melewati jalanan banjir sabar saja jangan menerabas sebelum tau konsekuensinya apa&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tfidf_Xnew_summary</span> <span class="o">=</span> <span class="n">vectorizer_summary</span><span class="o">.</span><span class="n">transform</span><span class="p">([</span><span class="n">new_data_summary</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">tfidf_Xnew_summary</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[0., 0., 0., ..., 0., 0., 0.]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pred_gnb_summary</span> <span class="o">=</span> <span class="n">gnb_summary</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">tfidf_Xnew_summary</span><span class="p">)</span>
+<span class="n">pred_gnb_summary</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Otomotif&#39;
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="modif-dengan-topik">
+<h2>Modif dengan Topik<a class="headerlink" href="#modif-dengan-topik" title="Permalink to this heading">#</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">create_topic_proportion_df</span><span class="p">(</span><span class="n">X_summary</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">):</span>
+    <span class="n">lda_model</span> <span class="o">=</span> <span class="n">LatentDirichletAllocation</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="n">k</span><span class="p">,</span> <span class="n">doc_topic_prior</span><span class="o">=</span><span class="n">alpha</span><span class="p">,</span> <span class="n">topic_word_prior</span><span class="o">=</span><span class="n">beta</span><span class="p">)</span>
+
+    <span class="n">proporsi_topik_dokumen</span> <span class="o">=</span> <span class="n">lda_model</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_summary</span><span class="p">)</span>
+
+    <span class="n">nama_kolom_topik</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">&#39;Topik </span><span class="si">{</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">k</span><span class="p">)]</span>
+
+    <span class="n">proporsi_topik_dokumen_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">proporsi_topik_dokumen</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">nama_kolom_topik</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">proporsi_topik_dokumen_df</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">vectorizer_summary</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">()</span>
+<span class="n">tfidf_text</span> <span class="o">=</span> <span class="n">vectorizer_summary</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data_final_sm</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">X_summary</span> <span class="o">=</span> <span class="n">create_topic_proportion_df</span><span class="p">(</span><span class="n">tfidf_text</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">data_final_sm</span><span class="p">[</span><span class="s2">&quot;Category&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_train_summary</span><span class="p">,</span> <span class="n">X_test_summary</span><span class="p">,</span> <span class="n">y_train_summary</span><span class="p">,</span> <span class="n">y_test_summary</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X_summary</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Inisialisasi model Naive Bayes Gaussian</span>
+<span class="n">gnb_summary</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
+<span class="c1"># Melatih model menggunakan data latih</span>
+<span class="n">gnb_summary</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_summary</span><span class="p">,</span> <span class="n">y_train_summary</span><span class="p">)</span>
+<span class="c1"># Membuat prediksi pada data uji</span>
+<span class="n">y_pred_gnb_summary</span> <span class="o">=</span> <span class="n">gnb_summary</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test_summary</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mengukur kinerja model dengan menghitung akurasi atau metrik lain yang relevan</span>
+<span class="n">accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test_summary</span><span class="p">,</span> <span class="n">y_pred_gnb_summary</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Akurasi: </span><span class="si">{</span><span class="n">accuracy</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Akurasi: 0.9612903225806452
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data_final_sm</span><span class="p">[</span><span class="s1">&#39;summary&#39;</span><span class="p">][</span><span class="mi">1028</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;jakarta kompascom  kondisi cuaca saat ini mulai masuk ke musim hujan banyak kondisi jalan yang tergenang air bahkan sampai banjir saat hujan turun dengan deras kalau bertemu dengan jalanan yang tergenang air sebenarnya jangan coba memaksa melewati jalan tersebut walau memang ada saja keperluan yang kepepet atau jadi jalan satusatunya head of safety riding promotion wahana agus sani mengatakan ada saja risiko pengendara kalau memaksa melewati jalanan banjir pakai motor baca juga daftar harga motor bebek per desember  kompascomm elgana mubarokah banjir setinggi  sentimeter hingga  meter merendam  rw di kampung bojongasih desa dayeuhkolot kecamatan dayeuhkolot kabupaten bandung jawa barat pada jumat  banjir tersebut akibat luapa sungai citarum yang tak jauh dari pemukiman warga risiko melewati jalan banjir cukup tinggi berpotensi mogok di tengah banjir atau masuk ke dalam lubang yang ada di jalan kata agus kepada kompascom belum lama ini soal mogok banyak kemungkinan air masuk ke ruang mesin seperti dari knalpot dan juga lubang udara kalau air sudah masuk mesin bisa rusak karena kemasukan benda asing selain udara dan bensin baca juga akhir tahun diskon kia sonet sentuh rp  jutaan  kemudian buat lubang saat jalanan banjir tentu jadi tidak terlihat dalamnya juga tidak ketahuan biasanya kalau sudah terjebak pengendara bisa jatuh dan melukai diri sendiri potensi luka pasti ada mas jadi memang sebaiknya jangan memaksakan kata agus jadi lebih baik lagi buat mencari jalan alternatif kalau misalnya tidak mau melewati jalanan banjir sabar saja jangan menerabas sebelum tau konsekuensinya apa&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">new_data</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;jakarta kompascom  kondisi cuaca saat ini mulai masuk ke musim hujan banyak kondisi jalan yang tergenang air bahkan sampai banjir saat hujan turun dengan deras kalau bertemu dengan jalanan yang tergenang air sebenarnya jangan coba memaksa melewati jalan tersebut walau memang ada saja keperluan yang kepepet atau jadi jalan satusatunya head of safety riding promotion wahana agus sani mengatakan ada saja risiko pengendara kalau memaksa melewati jalanan banjir pakai motor baca juga daftar harga motor bebek per desember  kompascomm elgana mubarokah banjir setinggi  sentimeter hingga  meter merendam  rw di kampung bojongasih desa dayeuhkolot kecamatan dayeuhkolot kabupaten bandung jawa barat pada jumat  banjir tersebut akibat luapa sungai citarum yang tak jauh dari pemukiman warga risiko melewati jalan banjir cukup tinggi berpotensi mogok di tengah banjir atau masuk ke dalam lubang yang ada di jalan kata agus kepada kompascom belum lama ini soal mogok banyak kemungkinan air masuk ke ruang mesin seperti dari knalpot dan juga lubang udara kalau air sudah masuk mesin bisa rusak karena kemasukan benda asing selain udara dan bensin baca juga akhir tahun diskon kia sonet sentuh rp  jutaan  kemudian buat lubang saat jalanan banjir tentu jadi tidak terlihat dalamnya juga tidak ketahuan biasanya kalau sudah terjebak pengendara bisa jatuh dan melukai diri sendiri potensi luka pasti ada mas jadi memang sebaiknya jangan memaksakan kata agus jadi lebih baik lagi buat mencari jalan alternatif kalau misalnya tidak mau melewati jalanan banjir sabar saja jangan menerabas sebelum tau konsekuensinya apa&quot;</span><span class="p">]</span>
+<span class="n">new_data_summary</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">(</span><span class="n">new_data</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">new_data_summary</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;jakarta kompascom  kondisi cuaca saat ini mulai masuk ke musim hujan banyak kondisi jalan yang tergenang air bahkan sampai banjir saat hujan turun dengan deras kalau bertemu dengan jalanan yang tergenang air sebenarnya jangan coba memaksa melewati jalan tersebut walau memang ada saja keperluan yang kepepet atau jadi jalan satusatunya head of safety riding promotion wahana agus sani mengatakan ada saja risiko pengendara kalau memaksa melewati jalanan banjir pakai motor baca juga daftar harga motor bebek per desember  kompascomm elgana mubarokah banjir setinggi  sentimeter hingga  meter merendam  rw di kampung bojongasih desa dayeuhkolot kecamatan dayeuhkolot kabupaten bandung jawa barat pada jumat  banjir tersebut akibat luapa sungai citarum yang tak jauh dari pemukiman warga risiko melewati jalan banjir cukup tinggi berpotensi mogok di tengah banjir atau masuk ke dalam lubang yang ada di jalan kata agus kepada kompascom belum lama ini soal mogok banyak kemungkinan air masuk ke ruang mesin seperti dari knalpot dan juga lubang udara kalau air sudah masuk mesin bisa rusak karena kemasukan benda asing selain udara dan bensin baca juga akhir tahun diskon kia sonet sentuh rp  jutaan  kemudian buat lubang saat jalanan banjir tentu jadi tidak terlihat dalamnya juga tidak ketahuan biasanya kalau sudah terjebak pengendara bisa jatuh dan melukai diri sendiri potensi luka pasti ada mas jadi memang sebaiknya jangan memaksakan kata agus jadi lebih baik lagi buat mencari jalan alternatif kalau misalnya tidak mau melewati jalanan banjir sabar saja jangan menerabas sebelum tau konsekuensinya apa&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tfidf_Xnew_summary</span> <span class="o">=</span> <span class="n">vectorizer_summary</span><span class="o">.</span><span class="n">transform</span><span class="p">([</span><span class="n">new_data_summary</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">topik_tfidf_x</span> <span class="o">=</span> <span class="n">create_topic_proportion_df</span><span class="p">(</span><span class="n">tfidf_Xnew_summary</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
+<span class="n">topik_tfidf_x</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-0dac54af-6157-42aa-b42a-6ff5e680e604" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Topik 1</th>
+      <th>Topik 2</th>
+      <th>Topik 3</th>
+      <th>Topik 4</th>
+      <th>Topik 5</th>
+      <th>Topik 6</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>0.009589</td>
+      <td>0.009589</td>
+      <td>0.009589</td>
+      <td>0.009589</td>
+      <td>0.009589</td>
+      <td>0.952055</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-0dac54af-6157-42aa-b42a-6ff5e680e604')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-0dac54af-6157-42aa-b42a-6ff5e680e604 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-0dac54af-6157-42aa-b42a-6ff5e680e604');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+    </div>
+  </div>
+</div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pred_gnb_summary</span> <span class="o">=</span> <span class="n">gnb_summary</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">topik_tfidf_x</span><span class="p">)</span>
+<span class="n">pred_gnb_summary</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;Edukasi&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Simpan Model</span>
+<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">model_selection</span>
+<span class="kn">import</span> <span class="nn">pickle</span>
+
+<span class="c1"># Inisialisasi model Naive Bayes Gaussian</span>
+<span class="n">gnb_summary</span> <span class="o">=</span> <span class="n">GaussianNB</span><span class="p">()</span>
+<span class="c1"># Melatih model menggunakan data latih</span>
+<span class="n">gnb_summary</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train_summary</span><span class="p">,</span> <span class="n">y_train_summary</span><span class="p">)</span>
+<span class="c1"># save the model to disk</span>
+<span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;model_naivebayes.pkl&#39;</span>
+<span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">knn</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -5227,6 +6446,8 @@ akurasi knn 68.48
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluasi"><strong>Evaluasi</strong></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#text-klasifikasi">Text klasifikasi</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#modif-dengan-topik">Modif dengan Topik</a></li>
 </ul>
   </nav></div>
 
